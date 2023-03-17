@@ -32,9 +32,14 @@ export class ParallaxComponent {
 
   render() {
     return (
-      <div class="parallax" style={{backgroundImage: `url(${this.imageUrl})`, transform: `translateY(${this.translateY}px)`}}>
-        <slot />
+      <div>
+        <div class="parallax" style={{ backgroundImage: `url(${this.imageUrl})`, transform: `translateY(${this.translateY}px)` }}>
+        </div>
+        <div class="text">
+          <slot />
+        </div>
       </div>
+
     );
   }
 

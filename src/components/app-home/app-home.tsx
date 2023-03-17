@@ -11,8 +11,8 @@ export class AppHome {
       <div class="app-home">
         <section>
           <parallax-component imageUrl="assets/img/carousel1.jpg" speed={0.5}>
-            <h1>My Parallax Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1>Swiss Happy Cat </h1>
+            <p>Un élevage</p>
           </parallax-component>
         </section>
         <section class="content">
