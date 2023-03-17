@@ -10,12 +10,12 @@ export class AppHome {
     return (
       <div class="app-home">
         <section>
-          <div class="main-container">
-            <div class="parallax" data-type="background" data-speed="10">
-              <img src="assets/img/carousel1.jpg" alt="parallax image" />
-            </div>
-          </div>
+          <parallax-component imageUrl="assets/img/carousel1.jpg" speed={0.5}>
+            <h1>My Parallax Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </parallax-component>
         </section>
+        <section class="content">
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
           <h4 id="scrollspyHeading1">First heading</h4>
 
@@ -29,6 +29,7 @@ export class AppHome {
           <h4 id="scrollspyHeading5">Fifth heading</h4>
           <p>...</p>
         </div>
+        </section>
 
         {/* <stencil-route-link url="/profile/stencil">
           <button>Profile page</button>

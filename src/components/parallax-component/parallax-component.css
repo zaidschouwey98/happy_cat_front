@@ -1,0 +1,8 @@
+.parallax {
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+  transform-origin: center center;
+  z-index: -1;
+}

@@ -10,7 +10,7 @@ export class AppRoot {
   render() {
     return (
       <div>
-        <nav id="navbar-example2" class="navbar sticky-top bg-light px-3 mb-3">
+        <nav id="navbar-example2" class="navbar sticky-top bg-light px-3">
           <a class="navbar-brand" href="#">Navbar</a>
           <ul class="nav nav-pills">
             <li class="nav-item">
