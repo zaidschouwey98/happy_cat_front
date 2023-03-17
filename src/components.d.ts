@@ -14,6 +14,10 @@ export namespace Components {
     }
     interface AppRoot {
     }
+    interface ParallaxComponent {
+        "imageUrl": string;
+        "speed": number;
+    }
 }
 declare global {
     interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {
@@ -34,10 +38,17 @@ declare global {
         prototype: HTMLAppRootElement;
         new (): HTMLAppRootElement;
     };
+    interface HTMLParallaxComponentElement extends Components.ParallaxComponent, HTMLStencilElement {
+    }
+    var HTMLParallaxComponentElement: {
+        prototype: HTMLParallaxComponentElement;
+        new (): HTMLParallaxComponentElement;
+    };
     interface HTMLElementTagNameMap {
         "app-home": HTMLAppHomeElement;
         "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
+        "parallax-component": HTMLParallaxComponentElement;
     }
 }
 declare namespace LocalJSX {
@@ -48,10 +59,15 @@ declare namespace LocalJSX {
     }
     interface AppRoot {
     }
+    interface ParallaxComponent {
+        "imageUrl"?: string;
+        "speed"?: number;
+    }
     interface IntrinsicElements {
         "app-home": AppHome;
         "app-profile": AppProfile;
         "app-root": AppRoot;
+        "parallax-component": ParallaxComponent;
     }
 }
 export { LocalJSX as JSX };
@@ -61,6 +77,7 @@ declare module "@stencil/core" {
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "parallax-component": LocalJSX.ParallaxComponent & JSXBase.HTMLAttributes<HTMLParallaxComponentElement>;
         }
     }
 }
