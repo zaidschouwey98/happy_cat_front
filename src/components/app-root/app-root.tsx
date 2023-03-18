@@ -1,5 +1,4 @@
 import { Component, h } from '@stencil/core';
-import 'bootstrap';
 
 @Component({
   tag: 'app-root',
