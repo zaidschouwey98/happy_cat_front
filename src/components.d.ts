@@ -14,6 +14,8 @@ export namespace Components {
     }
     interface AppRoot {
     }
+    interface ContactComponent {
+    }
     interface ParallaxComponent {
         "imageUrl": string;
         "speed": number;
@@ -38,6 +40,12 @@ declare global {
         prototype: HTMLAppRootElement;
         new (): HTMLAppRootElement;
     };
+    interface HTMLContactComponentElement extends Components.ContactComponent, HTMLStencilElement {
+    }
+    var HTMLContactComponentElement: {
+        prototype: HTMLContactComponentElement;
+        new (): HTMLContactComponentElement;
+    };
     interface HTMLParallaxComponentElement extends Components.ParallaxComponent, HTMLStencilElement {
     }
     var HTMLParallaxComponentElement: {
@@ -48,6 +56,7 @@ declare global {
         "app-home": HTMLAppHomeElement;
         "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
+        "contact-component": HTMLContactComponentElement;
         "parallax-component": HTMLParallaxComponentElement;
     }
 }
@@ -59,6 +68,8 @@ declare namespace LocalJSX {
     }
     interface AppRoot {
     }
+    interface ContactComponent {
+    }
     interface ParallaxComponent {
         "imageUrl"?: string;
         "speed"?: number;
@@ -67,6 +78,7 @@ declare namespace LocalJSX {
         "app-home": AppHome;
         "app-profile": AppProfile;
         "app-root": AppRoot;
+        "contact-component": ContactComponent;
         "parallax-component": ParallaxComponent;
     }
 }
@@ -77,6 +89,7 @@ declare module "@stencil/core" {
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "contact-component": LocalJSX.ContactComponent & JSXBase.HTMLAttributes<HTMLContactComponentElement>;
             "parallax-component": LocalJSX.ParallaxComponent & JSXBase.HTMLAttributes<HTMLParallaxComponentElement>;
         }
     }

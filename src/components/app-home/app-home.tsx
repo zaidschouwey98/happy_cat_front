@@ -11,7 +11,7 @@ export class AppHome {
       <div class="container-fluid">
         <div class="app-home">
           <section>
-            <parallax-component imageUrl="assets/img/mainimg.jpg" speed={0.5}>
+            <parallax-component imageUrl="assets/img/s.jpg" speed={0.5}>
               <h1>Swiss Happy Cat</h1>
               <p>Un élevage</p>
             </parallax-component>
@@ -28,30 +28,36 @@ export class AppHome {
                   </div>
                   <div>
                     <p>Depuis 2018, dans notre petit élevage Swiss HappyCat près d’Yverdon nous avons quelques chatons chaque année.<br></br>Nous sommes avant tout une famille et nos chats en font partie.<br></br><br></br>
-                      Notre plaisir est de le partager en plaçant nos bébés. Les Bengals sont extraordinaires ! J’enseigne les sciences dans la vie. Cette activité est avant tout faite par plaisir et passion.
+                      Notre plaisir est de le partager en plaçant nos bébés. Les Bengals sont extraordinaires ! Enseignante de sciences dans la vie. Cette activité est avant tout faite par plaisir et passion.
                       <br></br><br></br>
-                      Nous avons même eu dernièrement la visite de la télévision suisse romande. Une émission sur nos chats super affectueux est en projets de production.
+                      Nous avons eu dernièrement la visite de la télévision suisse romande. Une émission sur nos chats affectueux est en projets de production.
                       <br></br><br></br>
-                      Notre élevage est visible sur Faceebook et nous sommes inscrits au Catclub Romand qui pourra nous recommander.
+                      Notre élevage est visible sur Facebook et nous sommes inscrits au Catclub Romand qui pourra nous recommander.
                       <br></br><br></br>
                       Nous sommes allés chercher nos chats dans des élevages prestigieux mais avant tout familiaux, en Angleterre, France, Italie, Belgique et Australie. Plusieurs champions sont dans les pedigrees de chacun de nos chats mais surtout ils sont super apprivoisés et câlins.
                       <br></br><br></br>
-                      Vous pouvez me contacter par WhatsApp de préférence (pour les photos et vidéos ça va mieux) ainsi que pour tous renseignements.</p>
+                      Vous pouvez me contacter par WhatsApp de préférence (pour vous transmettre des photos et vidéos ça va mieux) ainsi que pour tous renseignements.</p>
                   </div>
                 </div>
-                <div class="col-7"><img src="assets/img/s.jpg" style={{ "width": "100%" }} alt="" /></div>
+                <div class="col-7"><img src="assets/img/img1.jpg" style={{ "height":"100vh" }} alt="" /></div>
               </div>
               <div class="row text-center mt-5">
                 <div class="col-12">
                   <h1 id="scrollspyHeading2">Nos réseaux</h1>
                 </div>
-                <div class="col-6 mt-5">
+                <div class="col-4 mt-5">
                   <div>
                     <img src="assets/img/tiktok_logo.webp" style={{ "width": "30%" }}></img>
                   </div>
                   <img src="assets/img/tiktok.png" style={{ "width": "30%" }}></img>
                 </div>
-                <div class="col-6 mt-5">
+                <div class="col-4 mt-5">
+                  <div>
+                    <img src="assets/img/Facebook-Logo.png" style={{ "width": "30%" }}></img>
+                  </div>
+                  <img src="assets/img/facebookqr.JPG" style={{ "width": "30%" }}></img>
+                </div>
+                <div class="col-4 mt-5">
                   <div>
                     <img src="assets/img/instagram_logo.webp" style={{ "width": "30%" }}></img>
                   </div>
@@ -60,12 +66,7 @@ export class AppHome {
               </div>
 
 
-              <h4 id="scrollspyHeading3">Third heading</h4>
-              <p>...</p>
-              <h4 id="scrollspyHeading4">Fourth heading</h4>
-              <p>...</p>
-              <h4 id="scrollspyHeading5">Fifth heading</h4>
-              <p>...</p>
+                <contact-component></contact-component>
             </div>
           </section>
 
