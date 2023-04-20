@@ -14,4 +14,8 @@ export const config: Config = {
       baseUrl: 'https://myapp.local/',
     },
   ],
+  env:{
+    fbBaseApiUrl: 'https://graph.facebook.com/v16.0/101195352253183',
+    fbApiToken:'EAAHy4MD3sokBAAiZBIbZCM0riOTfZBA06BwS4by8mzpHCeRZAHMTqGorBFasDTIG7ontPxK8KHrL7QUoJsdfEcZAZCMU5b8zbmgicTS9qxsmfLuuNL1gsWD7UBPGceG4hnpLjqGTyWfJk7X9A8LZAdnpSFcn0ZCZCkYcVJxm5IlR9KCdVNvChbbpJ23H0yZAib28WaEga10anuvfdDQUBms7UsoSCZCkmbYOGwZD',
+  }
 };

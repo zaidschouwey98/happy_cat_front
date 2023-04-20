@@ -1,4 +1,4 @@
-import { Component, h } from '@stencil/core';
+import { Component, Env, h } from '@stencil/core';
 
 @Component({
   tag: 'app-root',
@@ -6,6 +6,17 @@ import { Component, h } from '@stencil/core';
   shadow: false,
 })
 export class AppRoot {
+  componentWillLoad(){
+    const originalFetch = window.fetch;
+    window.fetch = async (input, init) => {
+      if (typeof input === 'string' && input.startsWith('https://graph.facebook.com')) {
+        const url = new URL(input);
+        url.searchParams.append('access_token', Env.fbApiToken);
+        input = url.toString();
+      }
+      return originalFetch.call(window, input, init);
+    }
+  }
   render() {
     return (
       <div>
