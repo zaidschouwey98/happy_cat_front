@@ -7,6 +7,8 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { MatchResults } from "@stencil-community/router";
 export namespace Components {
+    interface AppGallery {
+    }
     interface AppHome {
     }
     interface AppProfile {
@@ -22,6 +24,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLAppGalleryElement extends Components.AppGallery, HTMLStencilElement {
+    }
+    var HTMLAppGalleryElement: {
+        prototype: HTMLAppGalleryElement;
+        new (): HTMLAppGalleryElement;
+    };
     interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {
     }
     var HTMLAppHomeElement: {
@@ -53,6 +61,7 @@ declare global {
         new (): HTMLParallaxComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "app-gallery": HTMLAppGalleryElement;
         "app-home": HTMLAppHomeElement;
         "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
@@ -61,6 +70,8 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface AppGallery {
+    }
     interface AppHome {
     }
     interface AppProfile {
@@ -75,6 +86,7 @@ declare namespace LocalJSX {
         "speed"?: number;
     }
     interface IntrinsicElements {
+        "app-gallery": AppGallery;
         "app-home": AppHome;
         "app-profile": AppProfile;
         "app-root": AppRoot;
@@ -86,6 +98,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "app-gallery": LocalJSX.AppGallery & JSXBase.HTMLAttributes<HTMLAppGalleryElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;

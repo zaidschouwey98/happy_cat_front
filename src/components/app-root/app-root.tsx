@@ -12,19 +12,19 @@ export class AppRoot {
         <nav id="navbar-example2" class="navbar sticky-top bg-light px-3">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading1">L'élevage</a>
+              <a class="nav-link" href="/#scrollspyHeading1">L'élevage</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading2">Réseaux</a>
+              <a class="nav-link" href="/#scrollspyHeading2">Réseaux</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+              <a class="nav-link" href="/#scrollspyHeading3">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading3">Nos chats</a>
+              <a class="nav-link" href="/#scrollspyHeading3">Nos chats</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading3">Gallerie</a>
+              <a class="nav-link" href="/gallerie">Gallerie</a>
             </li>
           </ul>
         </nav>
@@ -33,6 +33,7 @@ export class AppRoot {
           <stencil-router>
             <stencil-route-switch scrollTopOffset={0}>
               <stencil-route url="/" component="app-home" exact={true} />
+              <stencil-route url="/gallerie" component="app-gallery" exact={true} />
               <stencil-route url="/profile/:name" component="app-profile" />
             </stencil-route-switch>
           </stencil-router>
