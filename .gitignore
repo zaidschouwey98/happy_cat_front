@@ -19,9 +19,9 @@ log.txt
 .versions/
 node_modules/
 $RECYCLE.BIN/
+.stencil.config.ts
 
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
 .env
-stencil.config.ts
