@@ -11,8 +11,16 @@ export class AppGallery {
   @State() albums: [{ name: string,id:number, photos: { data: [] } }];
   @State() refresh:boolean = false;
   async componentWillLoad() {
-    const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source),name)`);
-    this.albums = (await albums.json()).albums.data;
+    if(localStorage.getItem('albums')){
+      console.log("GETALBUMS")
+      this.albums = JSON.parse(localStorage.getItem('albums'));
+      console.log(localStorage.getItem('albums'))
+    }
+    else{
+      const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source),name)`);
+      this.albums = (await albums.json()).albums.data;
+      localStorage.setItem('albums',JSON.stringify(this.albums));
+    }
   }
 
   selectImage(album,photo){
@@ -31,17 +39,20 @@ export class AppGallery {
     return (
       <div class="container-fluid">
         {
-          this.albums.map((album) =>
-          (
-            <div class="row">
-              <h4>Album {album.name}</h4>
-              <div class="text-center">
-                {album.photos?.data?.map((photo:any)=>{
-                  return <img onClick={() => this.selectImage(album,photo)} src={photo.source}></img>
-                })}
+          this.albums.map((album) =>{
+            if(album.photos?.data?.length === 0) return;
+            return (
+              <div class="row">
+                <h4>Album {album.name}</h4>
+                <div class="text-center">
+                  {album.photos?.data?.map((photo:any)=>{
+                    return <img onClick={() => this.selectImage(album,photo)} src={photo.source}></img>
+                  })}
+                </div>
               </div>
-            </div>
-          )
+            )
+          }
+          
           )
         }
         {this.selectedImage !== null && (
