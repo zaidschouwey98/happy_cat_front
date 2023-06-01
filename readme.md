@@ -10,7 +10,7 @@ Stencil also enables a number of key capabilities on top of Web Components, in p
 
 ## Getting Started
 
-To start a new project using Stencil, clone this repo to a new directory:
+To start  a new project using Stencil, clone this repo to a new directory:
 
 ```bash
 npm init stencil app
