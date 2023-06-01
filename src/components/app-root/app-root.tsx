@@ -23,7 +23,7 @@ export class AppRoot {
         <nav id="navbar-example2" class="navbar sticky-top bg-light px-3">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" href="/#scrollspyHeading1">L'élevage</a>
+              <a class="nav-link" href="/#scrollspyHeading1"><b>L'élevage</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/#scrollspyHeading2">Réseaux</a>
@@ -31,8 +31,14 @@ export class AppRoot {
             <li class="nav-item">
               <a class="nav-link" href="/#scrollspyHeading3">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#scrollspyHeading3">Nos chats</a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nos chats
+            </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/cats">Parents</a></li>
+                <li><a class="dropdown-item" href="/cats">Chatons</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/gallerie">Gallerie</a>
@@ -45,6 +51,7 @@ export class AppRoot {
             <stencil-route-switch scrollTopOffset={0}>
               <stencil-route url="/" component="app-home" exact={true} />
               <stencil-route url="/gallerie" component="app-gallery" exact={true} />
+              <stencil-route url="/cats" component="app-cats" exact={true} />
               <stencil-route url="/profile/:name" component="app-profile" />
             </stencil-route-switch>
           </stencil-router>

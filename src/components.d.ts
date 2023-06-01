@@ -5,14 +5,12 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { MatchResults } from "@stencil-community/router";
 export namespace Components {
+    interface AppCats {
+    }
     interface AppGallery {
     }
     interface AppHome {
-    }
-    interface AppProfile {
-        "match": MatchResults;
     }
     interface AppRoot {
     }
@@ -24,6 +22,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLAppCatsElement extends Components.AppCats, HTMLStencilElement {
+    }
+    var HTMLAppCatsElement: {
+        prototype: HTMLAppCatsElement;
+        new (): HTMLAppCatsElement;
+    };
     interface HTMLAppGalleryElement extends Components.AppGallery, HTMLStencilElement {
     }
     var HTMLAppGalleryElement: {
@@ -35,12 +39,6 @@ declare global {
     var HTMLAppHomeElement: {
         prototype: HTMLAppHomeElement;
         new (): HTMLAppHomeElement;
-    };
-    interface HTMLAppProfileElement extends Components.AppProfile, HTMLStencilElement {
-    }
-    var HTMLAppProfileElement: {
-        prototype: HTMLAppProfileElement;
-        new (): HTMLAppProfileElement;
     };
     interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {
     }
@@ -61,21 +59,20 @@ declare global {
         new (): HTMLParallaxComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "app-cats": HTMLAppCatsElement;
         "app-gallery": HTMLAppGalleryElement;
         "app-home": HTMLAppHomeElement;
-        "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
         "contact-component": HTMLContactComponentElement;
         "parallax-component": HTMLParallaxComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface AppCats {
+    }
     interface AppGallery {
     }
     interface AppHome {
-    }
-    interface AppProfile {
-        "match"?: MatchResults;
     }
     interface AppRoot {
     }
@@ -86,9 +83,9 @@ declare namespace LocalJSX {
         "speed"?: number;
     }
     interface IntrinsicElements {
+        "app-cats": AppCats;
         "app-gallery": AppGallery;
         "app-home": AppHome;
-        "app-profile": AppProfile;
         "app-root": AppRoot;
         "contact-component": ContactComponent;
         "parallax-component": ParallaxComponent;
@@ -98,9 +95,9 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "app-cats": LocalJSX.AppCats & JSXBase.HTMLAttributes<HTMLAppCatsElement>;
             "app-gallery": LocalJSX.AppGallery & JSXBase.HTMLAttributes<HTMLAppGalleryElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
-            "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "contact-component": LocalJSX.ContactComponent & JSXBase.HTMLAttributes<HTMLContactComponentElement>;
             "parallax-component": LocalJSX.ParallaxComponent & JSXBase.HTMLAttributes<HTMLParallaxComponentElement>;

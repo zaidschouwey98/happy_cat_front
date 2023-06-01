@@ -12,19 +12,19 @@ export class AppHome {
         <div class="app-home">
           <section>
             <parallax-component imageUrl="assets/img/s.jpg" speed={0.5}>
-              <h1>Swiss Happy Cat</h1>
+              <h1 class="outline-text">Swiss Happy Cat</h1>
               <p>Un élevage</p>
             </parallax-component>
           </section>
           <section class="content">
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -100%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
 
 
-              <div class="row mt-5 mb-5" >
+              <div class="row mt-5 mb-5 aboutus" >
 
                 <div class="col-5">
                   <div class="text-center mb-4">
-                  <h1 id="scrollspyHeading1 mb-5">A propos de nous</h1>
+                  <h1 id="scrollspyHeading1">A propos de nous</h1>
                   </div>
                   <div>
                     <p>Depuis 2018, dans notre petit élevage Swiss HappyCat près d’Yverdon nous avons quelques chatons chaque année.<br></br>Nous sommes avant tout une famille et nos chats en font partie.<br></br><br></br>

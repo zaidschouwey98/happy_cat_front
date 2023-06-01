@@ -8,9 +8,9 @@ import { Component, h } from '@stencil/core';
 export class ContactComponent {
   render() {
     return (
-      <div class="row">
+      <div class="row" id="scrollspyHeading2">
         <div class="col-12 text-center mt-5">
-          <h1 id="scrollspyHeading2">Formulaire de contact</h1>
+          <h1>Formulaire de contact</h1>
         </div>
         <p class="text-center w-responsive mx-auto mb-5">
           Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
