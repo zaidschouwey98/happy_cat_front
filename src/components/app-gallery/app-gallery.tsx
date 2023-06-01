@@ -16,6 +16,11 @@ export class AppGallery {
     }
     else{
       const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source,name),name)`);
+      if(!albums.ok){
+        //@ts-ignore
+        this.albums = []
+        return;
+      }
       this.albums = (await albums.json()).albums.data;
       localStorage.setItem('albums',JSON.stringify(this.albums));
     }
@@ -34,13 +39,13 @@ export class AppGallery {
     this.selectedImage = {};
     this.selectedImage.albumIndex = this.albums.findIndex((alb)=>alb.id === album.id);
     this.selectedImage.photoIndex = currentphotoIndex;
-    console.log(this.selectedImage.albumIndex, this.selectedImage.photoIndex)
     this.refresh = !this.refresh;
   }
 
   render() {
-    if(!this.albums)
-      return;
+    //@ts-ignore
+    if(this.albums.length === 0)
+      return <div class="container-fluid">Loading...</div>;
     return (
       <div class="container-fluid" >
         {
@@ -57,7 +62,6 @@ export class AppGallery {
               </div>
             )
           }
-          
           )
         }
       </div>

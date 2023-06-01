@@ -13,6 +13,11 @@ export class AppCats {
     }
     else{
       const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source,name),name)`);
+      if(!albums.ok){
+        //@ts-ignore
+        this.albums = []
+        return;
+      }
       this.albums = (await albums.json()).albums.data;
       localStorage.setItem('albums',JSON.stringify(this.albums));
     }
