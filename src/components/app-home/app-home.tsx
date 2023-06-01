@@ -22,7 +22,7 @@ export class AppHome {
 
               <div class="row mt-5 mb-5 aboutus" >
 
-                <div class="col-5">
+                <div class="col-sm-5">
                   <div class="text-center mb-4">
                   <h1 id="scrollspyHeading1">A propos de nous</h1>
                   </div>
@@ -39,33 +39,31 @@ export class AppHome {
                       Vous pouvez me contacter par WhatsApp de préférence (pour vous transmettre des photos et vidéos ça va mieux) ainsi que pour tous renseignements.</p>
                   </div>
                 </div>
-                <div class="col-7"><img src="assets/img/img1.jpg" style={{ "height":"100vh" }} alt="" /></div>
+                <div class="col-sm-7"><img src="assets/img/img1.jpg" style={{"width":"100%"}} alt="" /></div>
               </div>
               <div class="row text-center mt-5">
                 <div class="col-12">
                   <h1 id="scrollspyHeading2">Nos réseaux</h1>
                 </div>
-                <div class="col-4 mt-5">
+                <div class="col-sm-4 mt-5">
                   <div>
                     <img src="assets/img/tiktok_logo.webp" style={{ "width": "30%" }}></img>
                   </div>
                   <img src="assets/img/tiktok.png" style={{ "width": "30%" }}></img>
                 </div>
-                <div class="col-4 mt-5">
+                <div class="col-sm-4 mt-5">
                   <div>
                     <img src="assets/img/Facebook-Logo.png" style={{ "width": "30%" }}></img>
                   </div>
                   <img src="assets/img/facebookqr.JPG" style={{ "width": "30%" }}></img>
                 </div>
-                <div class="col-4 mt-5">
+                <div class="col-sm-4 mt-5">
                   <div>
                     <img src="assets/img/instagram_logo.webp" style={{ "width": "30%" }}></img>
                   </div>
                   <img src="assets/img/insta.png" style={{ "width": "30%" }}></img>
                 </div>
               </div>
-
-
                 <contact-component></contact-component>
             </div>
           </section>
