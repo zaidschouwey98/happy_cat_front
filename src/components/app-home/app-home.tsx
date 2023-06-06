@@ -24,47 +24,67 @@ export class AppHome {
 
                 <div class="col-sm-5">
                   <div class="text-center mb-4">
-                  <h1 id="scrollspyHeading1">A propos de nous</h1>
+                    <h1 id="scrollspyHeading1">A propos de nous</h1>
                   </div>
                   <div>
-                    <p>Depuis 2018, dans notre petit élevage Swiss HappyCat près d’Yverdon nous avons quelques chatons chaque année.<br></br>Nous sommes avant tout une famille et nos chats en font partie.<br></br><br></br>
-                      Notre plaisir est de le partager en plaçant nos bébés. Les Bengals sont extraordinaires ! Enseignante de sciences dans la vie. Cette activité est avant tout faite par plaisir et passion.
-                      <br></br><br></br>
-                      Nous avons eu dernièrement la visite de la télévision suisse romande. Une émission sur nos chats affectueux est en projets de production.
-                      <br></br><br></br>
-                      Notre élevage est visible sur Facebook et nous sommes inscrits au Catclub Romand qui pourra nous recommander.
-                      <br></br><br></br>
-                      Nous sommes allés chercher nos chats dans des élevages prestigieux mais avant tout familiaux, en Angleterre, France, Italie, Belgique et Australie. Plusieurs champions sont dans les pedigrees de chacun de nos chats mais surtout ils sont super apprivoisés et câlins.
-                      <br></br><br></br>
-                      Vous pouvez me contacter par WhatsApp de préférence (pour vous transmettre des photos et vidéos ça va mieux) ainsi que pour tous renseignements.</p>
+                    <p>Depuis 2018, dans notre petit &eacute;levage Swiss HappyCat pr&egrave;s d&rsquo;Yverdon, nous avons quelques chatons chaque ann&eacute;e.</p>
+
+                    <p>Nous sommes avant tout une famille et nos chats en font partie.</p>
+
+                    <p>Notre plaisir est de le partager en pla&ccedil;ant nos b&eacute;b&eacute;s.</p>
+
+                    <p>Les Bengals sont extraordinaires !</p>
+
+                    <p>Enseignante de sciences dans la vie, cette activit&eacute; est faite par plaisir et passion.</p>
+
+                    <p>Nous avons eu derni&egrave;rement la visite de la t&eacute;l&eacute;vision suisse romande. Une &eacute;mission sur nos chats intitul&eacute;e -Mon animal et moi-sera diffus&eacute;e le 3 juin. Nous nous r&eacute;jouissons de pouvoir y montrer de beaux chats doux gentils et affectueux.</p>
+
+                    <p>Notre &eacute;levage est visible sur Faceebook. Le profile porte le nom de la chatterie il est mentionn&eacute; dans l&rsquo;annonce ici-m&ecirc;me. Nous sommes inscrits au Catclub Romand qui pourra nous recommander. Un site internet au nom de l&rsquo;&eacute;levage est en cours de construction &eacute;galement.</p>
+
+                    <p>Nous sommes all&eacute;s chercher nos chats dans des &eacute;levages prestigieux mais surtout familiaux, en Angleterre, France, Italie, Belgique et Australie.</p>
+
+                    <p>Plusieurs champions sont dans les pedigrees de chacun de nos chats dont quelques champions du monde (9).</p>
+
+                    <p>Bien entendu tous les tests g&eacute;n&eacute;tiques ont &eacute;t&eacute; faits. Nos chats sont en bonne sant&eacute; et bien &eacute;quilibr&eacute;s.</p>
+
+                    <p>Au plaisir !</p>
+
+                    <p>Swiss HappyCat Bengal Mouna</p>
                   </div>
                 </div>
-                <div class="col-sm-7"><img src="assets/img/img1.jpg" style={{"width":"100%"}} alt="" /></div>
+                <div class="col-sm-7"><img src="assets/img/img1.jpg" style={{ "width": "100%" }} alt="" /></div>
               </div>
               <div class="row text-center mt-5">
                 <div class="col-12">
                   <h1 id="scrollspyHeading2">Nos réseaux</h1>
                 </div>
                 <div class="col-sm-4 mt-5">
-                  <div>
-                    <img src="assets/img/tiktok_logo.webp" style={{ "width": "30%" }}></img>
-                  </div>
-                  <img src="assets/img/tiktok.png" style={{ "width": "30%" }}></img>
+                  <a href='https://www.tiktok.com/@swisshappycatbengal'>
+                    <div>
+                      <img src="assets/img/tiktok_logo.webp" style={{ "width": "30%" }}></img>
+                    </div>
+                    <img src="assets/img/tiktok.png" style={{ "width": "30%" }}></img>
+                  </a>
+                </div>
+
+                <div class="col-sm-4 mt-5">
+                  <a href='https://www.facebook.com/swissbengal1'>
+                    <div>
+                      <img src="assets/img/Facebook-Logo.png" style={{ "width": "30%" }}></img>
+                    </div>
+                    <img src="assets/img/facebookqr.JPG" style={{ "width": "30%" }}></img>
+                  </a>
                 </div>
                 <div class="col-sm-4 mt-5">
-                  <div>
-                    <img src="assets/img/Facebook-Logo.png" style={{ "width": "30%" }}></img>
-                  </div>
-                  <img src="assets/img/facebookqr.JPG" style={{ "width": "30%" }}></img>
-                </div>
-                <div class="col-sm-4 mt-5">
-                  <div>
-                    <img src="assets/img/instagram_logo.webp" style={{ "width": "30%" }}></img>
-                  </div>
-                  <img src="assets/img/insta.png" style={{ "width": "30%" }}></img>
+                  <a href='https://instagram.com/swiss_happycat_bengal?igshid=MjEwN2IyYWYwYw=='>
+                    <div>
+                      <img src="assets/img/instagram_logo.webp" style={{ "width": "30%" }}></img>
+                    </div>
+                    <img src="assets/img/insta.png" style={{ "width": "30%" }}></img>
+                  </a>
                 </div>
               </div>
-                <contact-component></contact-component>
+              <contact-component></contact-component>
             </div>
           </section>
 
