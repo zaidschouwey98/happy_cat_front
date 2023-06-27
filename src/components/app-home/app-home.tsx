@@ -11,7 +11,7 @@ export class AppHome {
       <div class="container-fluid">
         <div class="app-home">
           <section>
-            <parallax-component imageUrl="assets/img/s.jpg" speed={0.5}>
+            <parallax-component imageUrl="assets/img/backgroundhome.jpg" speed={0.5}>
               <h1 class="outline-text">Swiss Happy Cat</h1>
               <p>Un élevage</p>
             </parallax-component>
