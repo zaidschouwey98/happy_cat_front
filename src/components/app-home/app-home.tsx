@@ -18,10 +18,7 @@ export class AppHome {
           </section>
           <section class="content">
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -100%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-
-
               <div class="row mt-5 mb-5 aboutus" >
-
                 <div class="col-sm-5">
                   <div class="text-center mb-4">
                     <h1 id="scrollspyHeading1">A propos de nous</h1>

@@ -14,6 +14,13 @@ export namespace Components {
     }
     interface AppRoot {
     }
+    interface CatdivComponent {
+        "catName": string;
+        "catText": string;
+        "colorTheme": 'row-bg-dark' | 'row-bg-light';
+        "imgPaths": Array<string>;
+        "orientation": 'left' | 'right';
+    }
     interface ContactComponent {
     }
     interface ParallaxComponent {
@@ -46,6 +53,12 @@ declare global {
         prototype: HTMLAppRootElement;
         new (): HTMLAppRootElement;
     };
+    interface HTMLCatdivComponentElement extends Components.CatdivComponent, HTMLStencilElement {
+    }
+    var HTMLCatdivComponentElement: {
+        prototype: HTMLCatdivComponentElement;
+        new (): HTMLCatdivComponentElement;
+    };
     interface HTMLContactComponentElement extends Components.ContactComponent, HTMLStencilElement {
     }
     var HTMLContactComponentElement: {
@@ -63,6 +76,7 @@ declare global {
         "app-gallery": HTMLAppGalleryElement;
         "app-home": HTMLAppHomeElement;
         "app-root": HTMLAppRootElement;
+        "catdiv-component": HTMLCatdivComponentElement;
         "contact-component": HTMLContactComponentElement;
         "parallax-component": HTMLParallaxComponentElement;
     }
@@ -76,6 +90,13 @@ declare namespace LocalJSX {
     }
     interface AppRoot {
     }
+    interface CatdivComponent {
+        "catName"?: string;
+        "catText"?: string;
+        "colorTheme"?: 'row-bg-dark' | 'row-bg-light';
+        "imgPaths"?: Array<string>;
+        "orientation"?: 'left' | 'right';
+    }
     interface ContactComponent {
     }
     interface ParallaxComponent {
@@ -87,6 +108,7 @@ declare namespace LocalJSX {
         "app-gallery": AppGallery;
         "app-home": AppHome;
         "app-root": AppRoot;
+        "catdiv-component": CatdivComponent;
         "contact-component": ContactComponent;
         "parallax-component": ParallaxComponent;
     }
@@ -99,6 +121,7 @@ declare module "@stencil/core" {
             "app-gallery": LocalJSX.AppGallery & JSXBase.HTMLAttributes<HTMLAppGalleryElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "catdiv-component": LocalJSX.CatdivComponent & JSXBase.HTMLAttributes<HTMLCatdivComponentElement>;
             "contact-component": LocalJSX.ContactComponent & JSXBase.HTMLAttributes<HTMLContactComponentElement>;
             "parallax-component": LocalJSX.ParallaxComponent & JSXBase.HTMLAttributes<HTMLParallaxComponentElement>;
         }

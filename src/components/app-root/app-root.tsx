@@ -31,17 +31,11 @@ export class AppRoot {
             <li class="nav-item">
               <a class="nav-link" href="/#scrollspyHeading3">Contact</a>
             </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Nos chats
-            </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/cats">Parents</a></li>
-                <li><a class="dropdown-item" href="/cats">Chatons</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="/cats">Nos chats</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/gallerie">Gallerie</a>
+              <a class="nav-link" href="/gallerie">Galerie</a>
             </li>
           </ul>
         </nav>
