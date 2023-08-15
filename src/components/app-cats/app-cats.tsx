@@ -29,8 +29,9 @@ export class AppCats {
             <div class="row">
               <div class="col-12 mt-3 mb-3">
                 <h4>Britannia Tomorrow Tatoo</h4>
-                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-              </div>
+                <p>Tatoo poss&egrave;de un profile parfait mais &eacute;galement une robe somptueuse. Comme tous les chats de Britannia, elle a &eacute;t&eacute; &eacute;lev&eacute;e dans des conditions optimales. Elle est extr&ecirc;mement attachante, une m&egrave;re id&eacute;ale pour les prochaines g&eacute;n&eacute;rations.</p>
+
+                <p>Britannia Bengal en Angleterre fait un travail de s&eacute;l&eacute;ction &eacute;poustouflant, coupl&eacute; a une socialisation du tonnerre. Merci Ansar, Nasima et famille pour votre passion et votre investissement et merci pour votre confiance.</p>              </div>
             </div>
             <div class="row">
               <div class="col-4">
@@ -64,8 +65,7 @@ export class AppCats {
             <div class="row">
               <div class="col-12 mt-3 mb-3">
                 <h4>Animox Free Raqqa La douce</h4>
-                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-              </div>
+                <p>Raqqa vient de France. Alisson et son compagnon sont passionn&eacute;s par l&rsquo;&eacute;levage et lui ont offert une bonne socialisation. Elle est douce et gentille. Merci encore &agrave; Alisson pour sa confiance.</p>              </div>
             </div>
             <div class="row">
               <div class="col-4">
@@ -88,10 +88,13 @@ export class AppCats {
         </div>
         <div class="row interline">
         </div>
-        <catdiv-component orientation="right" colorTheme={"row-bg-dark"} catName="Charlie" catText="Texxte" imgPaths={["assets/img/charlie/IMG_0859.jpg","assets/img/charlie/IMG_9449.jpg","assets/img/charlie/IMG_0443.jpg","assets/img/charlie/DSC_6921.jpg"]} ></catdiv-component>
+        <catdiv-component orientation="right" colorTheme={"row-bg-dark"} catName="Charlie" catText="Charlie est extrêmement sociable. Il aura plaisir à venir faire des concours et nous nous en
+réjouissons car son profile est parfait et nous sommes très fier de lui." imgPaths={["assets/img/charlie/IMG_0859.jpg", "assets/img/charlie/IMG_9449.jpg", "assets/img/charlie/IMG_0443.jpg", "assets/img/charlie/DSC_6921.jpg"]} ></catdiv-component>
         <div class="row interline">
         </div>
-        <catdiv-component orientation="left" colorTheme={"row-bg-light"} catName="Just Wild Sole" catText="Texxte" imgPaths={["assets/img/sole/IMG_1925.jpg","assets/img/sole/IMG_1243.jpg","assets/img/sole/IMG_1947.jpg","assets/img/sole/IMG_1956.jpg"]} ></catdiv-component>
+        <catdiv-component orientation="left" colorTheme={"row-bg-light"} catName="Just Wild Sole" catText="Justwild Sole vient d’Italie. Malheureusement elle est très peureuse et peu socialisée. Nous lui
+offrons une vie tranquille et la placerons à la campagne dès que possible. Son look sauvage nous a
+séduit." imgPaths={["assets/img/sole/IMG_1925.jpg", "assets/img/sole/IMG_1243.jpg", "assets/img/sole/IMG_1947.jpg", "assets/img/sole/IMG_1956.jpg"]} ></catdiv-component>
 
       </div>
     );
