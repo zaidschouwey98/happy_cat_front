@@ -20,22 +20,22 @@ export class AppRoot {
   render() {
     return (
       <div>
-        <nav id="navbar-example2" class="navbar sticky-top bg-light px-3">
+        <nav id="navbar-example2" class="navbar sticky-top  main-navbar px-3">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" href="/#scrollspyHeading1"><b>L'élevage</b></a>
+              <a class="nav-link mainnav-item" href="/#scrollspyHeading1"><b>L'élevage</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#scrollspyHeading2">Réseaux</a>
+              <a class="nav-link mainnav-item" href="/#scrollspyHeading2">Réseaux</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#scrollspyHeading3">Contact</a>
+              <a class="nav-link mainnav-item" href="/#scrollspyHeading3">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/cats">Nos chats</a>
+              <a class="nav-link mainnav-item" href="/cats">Nos chats</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/gallerie">Galerie</a>
+              <a class="nav-link mainnav-item" href="/gallerie">Galerie</a>
             </li>
           </ul>
         </nav>

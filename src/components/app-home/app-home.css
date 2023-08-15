@@ -7,11 +7,62 @@ button:hover {
   position: relative;
   z-index: 1;
   background-color: white;
-  padding: 20px;
   margin-top: -50px; /* adjust as needed */
 }
-/* .aboutus{
-  background-image: url("./assets/img/paw_prints_trail_across_screen.jpg");
-  background-size: 60%;
+.aboutus{
+  padding-top: 10%;
+  padding-bottom: 15%;
+  color: black;
+  background-image: url("./assets/img/home-background/wave-haikei.svg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
   background-repeat: no-repeat;
-} */
+}
+.aboutus-img{
+  width: 80%;
+  padding: 15px 15px 15px 15px;
+  background-color: #887a5d;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+.socials{
+  padding-top: 10%;
+  padding-bottom: 30%;
+  color: white;
+  background-image: url("./assets/img/home-background/noreseaux.svg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.facebook{
+  background-image: url("./assets/img/reseaux/blob-haikei.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10%;
+
+}
+.insta{
+  background-image: url("./assets/img/reseaux/blob-haikei 1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10%;
+}
+.tiktok{
+  background-image: url("./assets/img/reseaux/blob-haikei 2.svg");
+  background-position: center;
+  background-size: contain;  
+  background-repeat: no-repeat;
+  padding: 10%;
+
+}
+
+.social-img{
+  width: 25%;
+}
+

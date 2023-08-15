@@ -1,6 +1,10 @@
 a{
     color:black !important;
 }
-nav{
-    background-color: darkgoldenrod !important;
+
+.main-navbar{
+    background-color: #887a5d !important;
+}
+.mainnav-item{
+    color:white !important
 }

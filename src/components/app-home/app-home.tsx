@@ -18,66 +18,52 @@ export class AppHome {
           </section>
           <section class="content">
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -100%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-              <div class="row mt-5 mb-5 aboutus" >
+              <div class="row aboutus" >
                 <div class="col-sm-5">
-                  <div class="text-center mb-4">
+                  <div class="text-center ms-4 mb-4">
                     <h1 id="scrollspyHeading1">A propos de nous</h1>
                   </div>
-                  <div>
-                    <p>Depuis 2018, dans notre petit &eacute;levage Swiss HappyCat pr&egrave;s d&rsquo;Yverdon, nous avons quelques chatons chaque ann&eacute;e.</p>
+                  <div class="text-center">
+                    <p>Notre &eacute;levage est situ&eacute; en Suisse &agrave; c&ocirc;t&eacute; d&rsquo;Orbe dans la campagne. Nos chats vivent avec nous et font partie int&eacute;grante de notre famille.</p>
 
-                    <p>Nous sommes avant tout une famille et nos chats en font partie.</p>
+                    <p>Notre objectif n&rsquo;est pas de vendre des chatons mais de s&eacute;lectionner nos chats pour faire &eacute;voluer la race Bengal vers des chats toujours plus beaux et sociables ainsi que de vous aider &agrave; trouver le chat qui vous convient.</p>
 
-                    <p>Notre plaisir est de le partager en pla&ccedil;ant nos b&eacute;b&eacute;s.</p>
+                    <p>L&rsquo;&eacute;mission TSR sur notre &eacute;levage refl&egrave;te bien qui nous sommes. Il est visible &agrave; cette adresse&#160;: Ou ci-dessous</p>
+                    <iframe width="560" height="315" src="https://www.rts.ch/play/embed?urn=urn:rts:video:14064982&subdivisions=false&startTime=51" allow="geolocation *; autoplay; encrypted-media"></iframe>
+                    <p>Nous faisons de longues recherches pour s&eacute;lectionner nos reproducteurs. Nous voulons non seulement des chat de haut standing mais &eacute;galement des chats provenant d&rsquo;&eacute;leveurs aimants et respectueux envers nos futurs petits compagnons. C&rsquo;est apr&egrave;s plusieurs ann&eacute;es d&rsquo;attente que nous avons finalement obtenu nos Bengals. Nos b&eacute;b&eacute;s ont des champions du monde dans leur p&eacute;digr&eacute;&eacute;.</p>
 
-                    <p>Les Bengals sont extraordinaires !</p>
-
-                    <p>Enseignante de sciences dans la vie, cette activit&eacute; est faite par plaisir et passion.</p>
-
-                    <p>Nous avons eu derni&egrave;rement la visite de la t&eacute;l&eacute;vision suisse romande. Une &eacute;mission sur nos chats intitul&eacute;e -Mon animal et moi-sera diffus&eacute;e le 3 juin. Nous nous r&eacute;jouissons de pouvoir y montrer de beaux chats doux gentils et affectueux.</p>
-
-                    <p>Notre &eacute;levage est visible sur Faceebook. Le profile porte le nom de la chatterie il est mentionn&eacute; dans l&rsquo;annonce ici-m&ecirc;me. Nous sommes inscrits au Catclub Romand qui pourra nous recommander. Un site internet au nom de l&rsquo;&eacute;levage est en cours de construction &eacute;galement.</p>
-
-                    <p>Nous sommes all&eacute;s chercher nos chats dans des &eacute;levages prestigieux mais surtout familiaux, en Angleterre, France, Italie, Belgique et Australie.</p>
-
-                    <p>Plusieurs champions sont dans les pedigrees de chacun de nos chats dont quelques champions du monde (9).</p>
-
-                    <p>Bien entendu tous les tests g&eacute;n&eacute;tiques ont &eacute;t&eacute; faits. Nos chats sont en bonne sant&eacute; et bien &eacute;quilibr&eacute;s.</p>
-
-                    <p>Au plaisir !</p>
-
-                    <p>Swiss HappyCat Bengal Mouna</p>
+                    <p>Pour vous aider dans vos recherches, sur les r&eacute;seaux sociaux facebook nous avons cr&eacute;&eacute; un groupe qui r&eacute;unit tous les eleveurs suisses passionn&eacute;s. Vous y trouverez de toutes les couleurs et robes. Visiter l&rsquo;elevage avant une adoption est tr&egrave;s important. Un chaton &eacute;lev&eacute; dans une pi&egrave;ce, sans interaction avec d&rsquo;autres chats que sa m&egrave;re ou sa fraterie deviendra sauvage et le restera toute sa vie.</p>
                   </div>
                 </div>
-                <div class="col-sm-7"><img src="assets/img/img1.jpg" style={{ "width": "100%" }} alt="" /></div>
+                <div class="col-sm-7 text-center"><img src="assets/img/img1.jpg" class="aboutus-img" alt="" /></div>
               </div>
-              <div class="row text-center mt-5">
+              <div class="row text-center socials ">
                 <div class="col-12">
                   <h1 id="scrollspyHeading2">Nos réseaux</h1>
                 </div>
-                <div class="col-sm-4 mt-5">
+                <div class="col-sm-4 tiktok">
                   <a href='https://www.tiktok.com/@swisshappycatbengal'>
                     <div>
-                      <img src="assets/img/tiktok_logo.webp" style={{ "width": "30%" }}></img>
+                      <img src="assets/img/tiktok_logo.webp" class="social-img" ></img>
                     </div>
-                    <img src="assets/img/tiktok.png" style={{ "width": "30%" }}></img>
+                    <img src="assets/img/tiktok.png"  class="social-img"></img>
                   </a>
                 </div>
 
-                <div class="col-sm-4 mt-5">
+                <div class="col-sm-4 facebook">
                   <a href='https://www.facebook.com/swissbengal1'>
                     <div>
-                      <img src="assets/img/Facebook-Logo.png" style={{ "width": "30%" }}></img>
+                      <img src="assets/img/Facebook-Logo.png"  class="social-img"></img>
                     </div>
-                    <img src="assets/img/facebookqr.JPG" style={{ "width": "30%" }}></img>
+                    <img src="assets/img/facebookqr.JPG"  class="social-img"></img>
                   </a>
                 </div>
-                <div class="col-sm-4 mt-5">
+                <div class="col-sm-4 insta">
                   <a href='https://instagram.com/swiss_happycat_bengal?igshid=MjEwN2IyYWYwYw=='>
                     <div>
-                      <img src="assets/img/instagram_logo.webp" style={{ "width": "30%" }}></img>
+                      <img src="assets/img/instagram_logo.webp"  class="social-img"></img>
                     </div>
-                    <img src="assets/img/insta.png" style={{ "width": "30%" }}></img>
+                    <img src="assets/img/insta.png"  class="social-img"></img>
                   </a>
                 </div>
               </div>
