@@ -38,6 +38,9 @@ export class AppRoot {
             <li class="nav-item">
               <a class="nav-link mainnav-item" href="/gallerie">Galerie</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link mainnav-item" href="/kittens">Chatons disponibles</a>
+            </li>
           </ul>
         </nav>
         
@@ -47,6 +50,7 @@ export class AppRoot {
               <stencil-route url="/" component="app-home" exact={true} />
               <stencil-route url="/gallerie" component="app-gallery" exact={true} />
               <stencil-route url="/cats" component="app-cats" exact={true} />
+              <stencil-route url="/kittens" component="app-kittens" exact={true} />
               <stencil-route url="/profile/:name" component="app-profile" />
             </stencil-route-switch>
           </stencil-router>

@@ -88,13 +88,25 @@ export class AppCats {
         </div>
         <div class="row interline">
         </div>
-        <catdiv-component orientation="right" colorTheme={"row-bg-dark"} catName="Charlie" catText="Charlie est extrêmement sociable. Il aura plaisir à venir faire des concours et nous nous en
+        <catdiv-component orientation="right" colorTheme={"row-bg-dark"} catName="Britannia RoyalCrown Charlie" catText="Charlie est extrêmement sociable. Il aura plaisir à venir faire des concours et nous nous en
 réjouissons car son profile est parfait et nous sommes très fier de lui." imgPaths={["assets/img/charlie/IMG_0859.jpg", "assets/img/charlie/IMG_9449.jpg", "assets/img/charlie/IMG_0443.jpg", "assets/img/charlie/DSC_6921.jpg"]} ></catdiv-component>
         <div class="row interline">
         </div>
         <catdiv-component orientation="left" colorTheme={"row-bg-light"} catName="Just Wild Sole" catText="Justwild Sole vient d’Italie. Malheureusement elle est très peureuse et peu socialisée. Nous lui
 offrons une vie tranquille et la placerons à la campagne dès que possible. Son look sauvage nous a
 séduit." imgPaths={["assets/img/sole/IMG_1925.jpg", "assets/img/sole/IMG_1243.jpg", "assets/img/sole/IMG_1947.jpg", "assets/img/sole/IMG_1956.jpg"]} ></catdiv-component>
+        <div class="row interline">
+        </div>
+        <catdiv-component orientation="right" colorTheme={"row-bg-dark"} catName="Britannia Midnight Ninou Superglue" catText="Lors de son premier concours, Ninou a reçu directement un prix spécial du juge. Elle a également
+d’immenses qualités tant dans son caractère que dans son physique. Ses bébés en hériteront." imgPaths={["assets/img/ninou/ninou1.jpeg", "assets/img/ninou/ninou2.jpeg", "assets/img/ninou/ninou3.jpeg", "assets/img/ninou/ninou4.jpeg"]} ></catdiv-component>
+        <div class="row interline">
+        </div>
+        <catdiv-component orientation="left" colorTheme={"row-bg-light"} catName="Swiss HappyCat Hurluberlu" catText="Hurluberlu fait partie de la troisième génération de chat nés chez nous. Nous en sommes
+particulièrement fiers. Son nez épais, ses grands yeux et sa robe aux dessins nets, contrastés et
+répartis de façon homogène, lui donnent d’excellentes qualités de reproducteurs. Sa démarche toute
+particulière de lionceau lui apporte un charme certain. Son caractère est égal aux autres chats de la
+maison, il est proche de nous sage et sociable avec ses congénères. Nous espérons que les bébés
+d’Hurluberlu héritent de toutes ses qualités tant physiques que sociables." imgPaths={["assets/img/lulu/lulu1.jpeg", "assets/img/lulu/lulu2.jpeg", "assets/img/lulu/lulu3.jpeg", "assets/img/lulu/lulu4.jpeg"]} ></catdiv-component>
 
       </div>
     );

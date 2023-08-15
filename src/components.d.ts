@@ -12,6 +12,8 @@ export namespace Components {
     }
     interface AppHome {
     }
+    interface AppKittens {
+    }
     interface AppRoot {
     }
     interface CatdivComponent {
@@ -47,6 +49,12 @@ declare global {
         prototype: HTMLAppHomeElement;
         new (): HTMLAppHomeElement;
     };
+    interface HTMLAppKittensElement extends Components.AppKittens, HTMLStencilElement {
+    }
+    var HTMLAppKittensElement: {
+        prototype: HTMLAppKittensElement;
+        new (): HTMLAppKittensElement;
+    };
     interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {
     }
     var HTMLAppRootElement: {
@@ -75,6 +83,7 @@ declare global {
         "app-cats": HTMLAppCatsElement;
         "app-gallery": HTMLAppGalleryElement;
         "app-home": HTMLAppHomeElement;
+        "app-kittens": HTMLAppKittensElement;
         "app-root": HTMLAppRootElement;
         "catdiv-component": HTMLCatdivComponentElement;
         "contact-component": HTMLContactComponentElement;
@@ -87,6 +96,8 @@ declare namespace LocalJSX {
     interface AppGallery {
     }
     interface AppHome {
+    }
+    interface AppKittens {
     }
     interface AppRoot {
     }
@@ -107,6 +118,7 @@ declare namespace LocalJSX {
         "app-cats": AppCats;
         "app-gallery": AppGallery;
         "app-home": AppHome;
+        "app-kittens": AppKittens;
         "app-root": AppRoot;
         "catdiv-component": CatdivComponent;
         "contact-component": ContactComponent;
@@ -120,6 +132,7 @@ declare module "@stencil/core" {
             "app-cats": LocalJSX.AppCats & JSXBase.HTMLAttributes<HTMLAppCatsElement>;
             "app-gallery": LocalJSX.AppGallery & JSXBase.HTMLAttributes<HTMLAppGalleryElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
+            "app-kittens": LocalJSX.AppKittens & JSXBase.HTMLAttributes<HTMLAppKittensElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "catdiv-component": LocalJSX.CatdivComponent & JSXBase.HTMLAttributes<HTMLCatdivComponentElement>;
             "contact-component": LocalJSX.ContactComponent & JSXBase.HTMLAttributes<HTMLContactComponentElement>;
