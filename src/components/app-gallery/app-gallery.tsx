@@ -15,6 +15,7 @@ export class AppGallery {
       this.albums = JSON.parse(localStorage.getItem('albums'));
     }
     else{
+      console.log(Env.fbBaseApiUrl)
       const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source,name),name)`);
       if(!albums.ok){
         //@ts-ignore

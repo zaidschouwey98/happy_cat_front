@@ -11,6 +11,7 @@ export class AppRoot {
     window.fetch = async (input, init) => {
       if (typeof input === 'string' && input.startsWith('https://graph.facebook.com')) {
         const url = new URL(input);
+        console.log(Env)
         url.searchParams.append('access_token', Env.fbApiToken);
         input = url.toString();
       }
