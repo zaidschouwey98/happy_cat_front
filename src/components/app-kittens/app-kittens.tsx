@@ -26,8 +26,8 @@ export class AppKittens {
   }
 
   async componentWillLoad() {
-    if (localStorage.getItem('albums')) {
-      const kittensAlb = JSON.parse(localStorage.getItem('albums')).find((album: any) => album.name === 'Chatons');
+    if (sessionStorage.getItem('albums')) {
+      const kittensAlb = JSON.parse(sessionStorage.getItem('albums')).find((album: any) => album.name === 'Chatons');
       this.kittens = this.albumToKittens(kittensAlb);
     }
     else {
@@ -38,7 +38,7 @@ export class AppKittens {
         return;
       }
       const albumsJson = (await albums.json()).albums.data;
-      localStorage.setItem('albums', JSON.stringify(albumsJson));
+      sessionStorage.setItem('albums', JSON.stringify(albumsJson));
       this.kittens = this.albumToKittens(albumsJson.find((album: any) => album.name === 'Chatons'))
     }
   }

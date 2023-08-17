@@ -8,8 +8,8 @@ import { Component, Env, State, h } from '@stencil/core';
 export class AppCats {
   @State() albums: [{ name: string; id: number; photos: { data: [] } }];
   async componentWillLoad() {
-    if (localStorage.getItem('albums')) {
-      this.albums = JSON.parse(localStorage.getItem('albums'));
+    if (sessionStorage.getItem('albums')) {
+      this.albums = JSON.parse(sessionStorage.getItem('albums'));
     } else {
       const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source,name),name)`);
       if (!albums.ok) {
@@ -18,7 +18,7 @@ export class AppCats {
         return;
       }
       this.albums = (await albums.json()).albums.data;
-      localStorage.setItem('albums', JSON.stringify(this.albums));
+      sessionStorage.setItem('albums', JSON.stringify(this.albums));
     }
   }
   render() {
