@@ -55,7 +55,7 @@ export class AppKittens {
         {this.kittens.map((kitten,i) =>{
           return (
             <div class={`row ${(i + 1) % 2 === 0 ? "bg-2" : "bg-1"} text-center`}>
-              <h3>Album {kitten.name}</h3>
+              <h3>{kitten.name}</h3>
               <div class="text-center" id={`static-thumbnails-${i}`}>
                 {kitten.photos.map((photo: any) => {
                   return <a href={photo.source}><img src={photo.source}></img></a>
