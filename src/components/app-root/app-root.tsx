@@ -24,13 +24,13 @@ export class AppRoot {
         <nav id="navbar-example2" class="navbar sticky-top  main-navbar px-3">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link mainnav-item" href="/#scrollspyHeading1"><b>L'élevage</b></a>
+              <a class="nav-link mainnav-item" href="/#elevage"><b>L'élevage</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mainnav-item" href="/#scrollspyHeading2">Réseaux</a>
+              <a class="nav-link mainnav-item" href="/#reseaux">Réseaux</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mainnav-item" href="/#scrollspyHeading3">Contact</a>
+              <a class="nav-link mainnav-item" href="/#contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mainnav-item" href="/cats">Nos chats</a>

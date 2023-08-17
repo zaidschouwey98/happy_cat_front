@@ -21,7 +21,7 @@ export class AppHome {
               <div class="row aboutus" >
                 <div class="col-sm-5">
                   <div class="text-center ms-4 mb-4">
-                    <h1 id="scrollspyHeading1">A propos de nous</h1>
+                    <h1 id="elevage">A propos de nous</h1>
                   </div>
                   <div class="text-center">
                     <p>Notre &eacute;levage est situ&eacute; en Suisse &agrave; c&ocirc;t&eacute; d&rsquo;Orbe dans la campagne. Nos chats vivent avec nous et font partie int&eacute;grante de notre famille.</p>
@@ -39,7 +39,7 @@ export class AppHome {
               </div>
               <div class="row text-center socials ">
                 <div class="col-12">
-                  <h1 id="scrollspyHeading2">Nos réseaux</h1>
+                  <h1 id="reseaux">Nos réseaux</h1>
                 </div>
                 <div class="col-sm-4 tiktok">
                   <a href='https://www.tiktok.com/@swisshappycatbengal'>

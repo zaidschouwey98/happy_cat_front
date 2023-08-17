@@ -8,7 +8,7 @@ import { Component, h } from '@stencil/core';
 export class ContactComponent {
   render() {
     return (
-      <div class="row contact" id="scrollspyHeading2">
+      <div class="row contact" id="contact">
         <div class="col-12 text-center mt-5">
           <h1>Contact</h1>
         </div>
