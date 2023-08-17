@@ -17,11 +17,11 @@ export class AppHome {
             </parallax-component>
           </section>
           <section class="content">
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -100%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <div data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-root-margin="0px 0px -100%" data-bs-smooth-scroll="true" tabindex="0">
               <div class="row aboutus" >
                 <div class="col-sm-5">
                   <div class="text-center ms-4 mb-4">
-                    <h1 id="elevage">A propos de nous</h1>
+                    <h1 id="aboutus">A propos de nous</h1>
                   </div>
                   <div class="text-center">
                     <p>Notre &eacute;levage est situ&eacute; en Suisse &agrave; c&ocirc;t&eacute; d&rsquo;Orbe dans la campagne. Nos chats vivent avec nous et font partie int&eacute;grante de notre famille.</p>
@@ -29,7 +29,7 @@ export class AppHome {
                     <p>Notre objectif n&rsquo;est pas de vendre des chatons mais de s&eacute;lectionner nos chats pour faire &eacute;voluer la race Bengal vers des chats toujours plus beaux et sociables ainsi que de vous aider &agrave; trouver le chat qui vous convient.</p>
 
                     <p>L&rsquo;&eacute;mission TSR sur notre &eacute;levage refl&egrave;te bien qui nous sommes. Il est visible &agrave; cette adresse&#160;: Ou ci-dessous</p>
-                    <iframe width="560" height="315" src="https://www.rts.ch/play/embed?urn=urn:rts:video:14064982&subdivisions=false&startTime=51" allow="geolocation *; autoplay; encrypted-media"></iframe>
+                    <iframe class="iframe" height="370" src="https://www.rts.ch/play/embed?urn=urn:rts:video:14064982&subdivisions=false&startTime=51" allow="geolocation *; autoplay; encrypted-media"></iframe>
                     <p>Nous faisons de longues recherches pour s&eacute;lectionner nos reproducteurs. Nous voulons non seulement des chat de haut standing mais &eacute;galement des chats provenant d&rsquo;&eacute;leveurs aimants et respectueux envers nos futurs petits compagnons. C&rsquo;est apr&egrave;s plusieurs ann&eacute;es d&rsquo;attente que nous avons finalement obtenu nos Bengals. Nos b&eacute;b&eacute;s ont des champions du monde dans leur p&eacute;digr&eacute;&eacute;.</p>
 
                     <p>Pour vous aider dans vos recherches, sur les r&eacute;seaux sociaux facebook nous avons cr&eacute;&eacute; un groupe qui r&eacute;unit tous les eleveurs suisses passionn&eacute;s. Vous y trouverez de toutes les couleurs et robes. Visiter l&rsquo;elevage avant une adoption est tr&egrave;s important. Un chaton &eacute;lev&eacute; dans une pi&egrave;ce, sans interaction avec d&rsquo;autres chats que sa m&egrave;re ou sa fraterie deviendra sauvage et le restera toute sa vie.</p>
@@ -39,7 +39,7 @@ export class AppHome {
               </div>
               <div class="row text-center socials ">
                 <div class="col-12">
-                  <h1 id="reseaux">Nos réseaux</h1>
+                  <h1 id="socials">Nos réseaux</h1>
                 </div>
                 <div class="col-sm-4 tiktok">
                   <a href='https://www.tiktok.com/@swisshappycatbengal'>

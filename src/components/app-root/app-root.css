@@ -8,3 +8,7 @@ a{
 .mainnav-item{
     color:white !important
 }
+
+.container-fluid{
+    padding:0 !important
+}

@@ -1,8 +1,6 @@
-:host {
-  display: block;
-}
 .contact{
   background-color: #fcf7de;
   color: black;
   padding-bottom: 20%;
+  margin: 0 !important;
 }

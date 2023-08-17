@@ -24,10 +24,10 @@ export class AppRoot {
         <nav id="navbar-example2" class="navbar sticky-top  main-navbar px-3">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link mainnav-item" href="/#elevage"><b>L'élevage</b></a>
+              <a class="nav-link mainnav-item" href="/#aboutus"><b>L'élevage</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mainnav-item" href="/#reseaux">Réseaux</a>
+              <a class="nav-link mainnav-item" href="/#socials">Réseaux</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mainnav-item" href="/#contact">Contact</a>
@@ -36,7 +36,7 @@ export class AppRoot {
               <a class="nav-link mainnav-item" href="/cats">Nos chats</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mainnav-item" href="/gallerie">Galerie</a>
+              <a class="nav-link mainnav-item" href="/gallery">Galerie</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mainnav-item" href="/kittens">Chatons disponibles</a>
@@ -48,10 +48,9 @@ export class AppRoot {
           <stencil-router>
             <stencil-route-switch scrollTopOffset={0}>
               <stencil-route url="/" component="app-home" exact={true} />
-              <stencil-route url="/gallerie" component="app-gallery" exact={true} />
+              <stencil-route url="/gallery" component="app-gallery" exact={true} />
               <stencil-route url="/cats" component="app-cats" exact={true} />
               <stencil-route url="/kittens" component="app-kittens" exact={true} />
-              <stencil-route url="/profile/:name" component="app-profile" />
             </stencil-route-switch>
           </stencil-router>
         </main>

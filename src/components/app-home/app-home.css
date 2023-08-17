@@ -10,6 +10,7 @@ button:hover {
   margin-top: -50px; /* adjust as needed */
 }
 .aboutus{
+  margin:0 !important;
   padding-top: 10%;
   padding-bottom: 15%;
   color: black;
@@ -29,6 +30,7 @@ button:hover {
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 .socials{
+  margin: 0 !important;
   padding-top: 10%;
   padding-bottom: 30%;
   color: white;
@@ -67,3 +69,7 @@ button:hover {
   width: 25%;
 }
 
+.iframe{
+  width: 100%;
+  
+}
