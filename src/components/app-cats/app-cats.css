@@ -1,13 +1,5 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
 .right-img{
-  width:100%;
-  width: 100%;
+  width:90%;
 }
 
 .left-img{
@@ -27,15 +19,18 @@
 }
 
 .interline{
+  margin:0 !important;
   background-color: #523f15b0 !important;
   height: 30px;
 }
 
 .row-bg-dark{
+  margin:0 !important;
   background-color: black;
   color: white;
 }
 
 .row-bg-light{
+  margin:0 !important;
   background-color: #FCF7DE;
 }

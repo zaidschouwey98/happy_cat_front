@@ -9,6 +9,7 @@ img {
 }
 
 .bg-1 {
+  margin: 0 !important;
   padding-top: 15%;
   padding-bottom: 15%;
   color: black;
@@ -20,6 +21,7 @@ img {
 
 }
 .bg-2 {
+  margin: 0 !important;
   padding-top: 15%;
   padding-bottom: 15%;
   color: white;
@@ -28,5 +30,4 @@ img {
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
-
 }

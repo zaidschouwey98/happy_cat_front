@@ -3,7 +3,8 @@ a{
 }
 
 .main-navbar{
-    background-color: #887a5d !important;
+    background-color: #000000 !important;
+    width: 100%;
 }
 .mainnav-item{
     color:white !important

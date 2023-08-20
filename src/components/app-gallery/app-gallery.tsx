@@ -34,13 +34,11 @@ export class AppGallery {
   }
 
   render() {
-
     //@ts-ignore
     if (this.albums.length === 0)
       return <div class="container-fluid">Loading...</div>;
     for (let i = 0; i < this.albums.length; i++) {
       if(!this.albums[i].hasOwnProperty("photos")){
-        console.log(this.albums[i].name)
         this.albums.splice(i, 1);
       }
     }
