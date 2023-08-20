@@ -91,16 +91,16 @@ button:hover {
 .left-section {
   letter-spacing: 0.2em;
   color: white;
-  background-color: #000000;
+  background-color: #010101;
   /* Set your desired color */
   padding: 20px;
 }
 
 .intersection {
-  background-color: #000000;
+  background-color: #010101;
   height: 60vh;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 32%, rgba(252, 247, 222, 1) 100%);
+  background: #010101;
+  background: linear-gradient(180deg, #010101 0%, rgba(0, 0, 0, 1) 32%, rgba(252, 247, 222, 1) 100%);
 }
 
 @media screen and (max-width: 600px) {
