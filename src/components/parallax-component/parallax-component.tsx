@@ -29,7 +29,7 @@ export class ParallaxComponent {
   disconnectedCallback() {
     window.removeEventListener('scroll', this.handleScroll);
   }
-
+  //render
   render() {
     return (
       <div class="row">
