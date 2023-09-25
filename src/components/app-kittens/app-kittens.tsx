@@ -49,6 +49,8 @@ export class AppKittens {
     )
   }
   render() {
+    if(!this.kittens)
+      return (<div>Loading...</div>)
     return (
       <div class="container-fluid">
         {this.kittens.map((kitten,i) =>{
