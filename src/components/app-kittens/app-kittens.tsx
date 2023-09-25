@@ -49,6 +49,7 @@ export class AppKittens {
     )
   }
   render() {
+    //
     if(!this.kittens)
       return (<div>Loading...</div>)
     return (
