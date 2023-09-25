@@ -51,7 +51,6 @@ export class AppKittens {
   render() {
     return (
       <div class="container-fluid">
-        <div class="text-center">
         {this.kittens.map((kitten,i) =>{
           return (
             <div class={`row ${(i + 1) % 2 === 0 ? "bg-2" : "bg-1"} text-center`}>
@@ -64,7 +63,7 @@ export class AppKittens {
             </div>
           )
         })}
-        </div>
+        
       </div>
     );
   }
