@@ -34,7 +34,7 @@ export class AppKittens {
       const albums = await fetch(`${Env.fbBaseApiUrl}/?fields=albums.fields(photos.fields(source,name),name)`);
       if (!albums.ok) {
         //@ts-ignore
-        this.kittens = []
+        this.kittens = [];
         return;
       }
       const albumsJson = (await albums.json()).albums.data;
