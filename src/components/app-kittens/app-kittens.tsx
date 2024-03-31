@@ -28,6 +28,7 @@ export class AppKittens {
   async componentWillLoad() {
     if (sessionStorage.getItem('albums')) {
       const kittensAlb = JSON.parse(sessionStorage.getItem('albums')).find((album: any) => album.name === 'Chatons');
+      console.log(kittensAlb);
       this.kittens = this.albumToKittens(kittensAlb);
     }
     else {
@@ -49,6 +50,7 @@ export class AppKittens {
     )
   }
   render() {
+    console.log(this.kittens)
     //
     if(!this.kittens)
       return (<div>Loading...</div>)
@@ -57,7 +59,7 @@ export class AppKittens {
         {this.kittens.map((kitten,i) =>{
           return (
             <div class={`row ${(i + 1) % 2 === 0 ? "bg-2" : "bg-1"} text-center`}>
-              <h3>{kitten.name}</h3>
+              <h3>Chatons disponibles</h3>
               <div class="text-center" id={`static-thumbnails-${i}`}>
                 {kitten.photos.map((photo: any) => {
                   return <a href={photo.source}><img src={photo.source}></img></a>
