@@ -19,6 +19,6 @@ export const config: Config = {
   ],
   env:{
     fbBaseApiUrl: 'https://graph.facebook.com/v16.0/101195352253183',
-    fbApiToken:"EAAHy4MD3sokBOZBYabGyuZCxZCmcXzWJpYTKuMttuiXsjHfHf0Kjg8qxD1JW1k1mZCHszHZAXDeyGLYAZCa5TEZBUQbHEaFY7MUIYdZB5AHSTlZB2ZAz5atIsqH3O8zOZBrZCL3K4W3GqLghPKOGlLNV5t5kZCVrJ5fWN5P9ExrvxRjlYYq46yekHgiVIflfRb32QobtElaTpBOIZCkWyateD3nzlf54LGkWKMmKrQMnmS10jI",
+    fbApiToken:"EAAHy4MD3sokBO9CHWsxC3axMvpUvFznsdkfihCprcuqeSFdZBDZBUSxgZBmHeR9VZB006wJMXIiB4I8H69iAnIoZBvuTyqZBi8NskkqkaikRnZC1su0TRZBgVUxfPuUM9npOx1SLaiTrIsJ7OPvx4KOJXNzwZA8J1TBXoc0pvb03VlpfshuwJcylv6LUEyOZAD3SBLBIORVwZDZD",
   }
 };
