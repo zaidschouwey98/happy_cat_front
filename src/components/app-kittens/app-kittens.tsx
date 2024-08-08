@@ -27,8 +27,10 @@ export class AppKittens {
 
   async componentWillLoad() {
     if (sessionStorage.getItem('albums')) {
-      const kittensAlb = JSON.parse(sessionStorage.getItem('albums')).find((album: any) => album.name === 'Chatons');
-      console.log(kittensAlb);
+      const kittensAlb = JSON.parse(sessionStorage.getItem('albums')).find((album: any) => album.name === 'Chatons à placer et chats pour la retraite');
+      if(kittensAlb === undefined){
+        console.error("Album chatons not found.");
+      }
       this.kittens = this.albumToKittens(kittensAlb);
     }
     else {
