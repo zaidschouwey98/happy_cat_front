@@ -25,7 +25,9 @@ export class AppCats {
     return (
       <div class="container-fluid">
         <div class="row row-bg-dark">
-          <div class="col-sm-6">
+          <h1 class="mb-5">Nos chats Bengal : Découvrez l'Élite de Notre Élevage</h1>
+          <br></br>
+          <div class="col-sm-6 mt-5">
             <div class="row">
               <div class="col-12 mt-3 mb-3">
                 <h4>Britannia Tomorrow Tatoo</h4>
