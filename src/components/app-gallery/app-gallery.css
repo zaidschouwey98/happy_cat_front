@@ -7,7 +7,17 @@ img {
   height: 200px;
   margin: 3px;
 }
+.bg-1-titles {
+  padding-top: 5%;
+  margin: 0 !important;
+  color: black;
+  background-image: url("./assets/img/gallerie-background/bg-1.svg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
 
+}
 .bg-1 {
   margin: 0 !important;
   padding-top: 15%;

@@ -3,7 +3,18 @@ img {
   height: 200px;
   margin: 3px;
 }
+.bg-1-titles {
+  padding-top: 5%;
+  margin: 0 !important;
+  color: black;
+  background-image: url("./assets/img/gallerie-background/bg-1.svg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
 
+}
 .bg-1 {
   padding-top: 15%;
   padding-bottom: 15%;
