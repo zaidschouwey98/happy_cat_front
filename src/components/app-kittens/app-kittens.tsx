@@ -55,7 +55,7 @@ export class AppKittens {
     if (!this.kittens)
       return (<div>Loading...</div>)
     return (
-      <div class="container-fluid">
+      <div class="container">
         <div class="row bg-1-titles">
           <h1>Chatons Bengals Disponibles : Découvrez Nos Petits Compagnons à Adopter</h1>
 
