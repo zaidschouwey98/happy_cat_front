@@ -21,6 +21,7 @@ img {
 .bg-1 {
   padding-top: 15%;
   padding-bottom: 15%;
+  margin: 0 !important;
   color: black;
   background-image: url("./assets/img/gallerie-background/bg-1.svg");
   background-position: center;
@@ -32,6 +33,7 @@ img {
 .bg-2 {
   padding-top: 15%;
   padding-bottom: 15%;
+  margin: 0 !important;
   color: white;
   background-image: url("./assets/img/gallerie-background/bg-2.svg");
   background-position: center;

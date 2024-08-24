@@ -3,7 +3,7 @@ import { Component, Env, State, h } from '@stencil/core';
 @Component({
   tag: 'app-kittens',
   styleUrl: 'app-kittens.css',
-  shadow: true,
+  shadow: false,
 })
 export class AppKittens {
   @State() kittens: [{ name: string, photos: Array<any> }];
@@ -55,7 +55,7 @@ export class AppKittens {
     if (!this.kittens)
       return (<div>Loading...</div>)
     return (
-      <div class="container">
+      <div class="container-fluid">
         <div class="row bg-1-titles">
           <h1>Chatons Bengals Disponibles : Découvrez Nos Petits Compagnons à Adopter</h1>
 
