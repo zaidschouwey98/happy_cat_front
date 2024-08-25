@@ -14,6 +14,7 @@ export const config: Config = {
       baseUrl: 'https://myapp.local/',
       copy: [
         { src: 'assets/robots.txt', dest:'robots.txt'},
+        { src: 'assets/sitemap.xml', dest:'sitemap.xml'},
         { src: '_redirects', dest: '_redirects' }
       ]
     },
