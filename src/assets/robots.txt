@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://swisshappycat.ch/sitemap.xml
