@@ -20,9 +20,10 @@ export class AppHome {
 
           <section>
             <div class="row home-section">
-              <div class="col-6 left-section d-flex align-items-center justify-content-center">
-                <div class="d-flex flex-column align-items-center justify-content-center">
+              <div class="col-6 left-section d-flex align-items-center">
+                <div class="d-flex flex-column align-items-center ">
                   <h2><strong>SwissHappyCat</strong></h2>
+                  <div>-</div>
                   <h1><strong>Élevage de chatons Bengals sur Vaud</strong></h1>
                 </div>
               </div>
