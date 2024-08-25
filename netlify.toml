@@ -5,4 +5,4 @@
 
 
 [context.production]
-    command = "mv robots-production.txt www/robots.txt"
+    command = "mv robots-production.txt robots.txt"
