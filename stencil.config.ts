@@ -13,6 +13,7 @@ export const config: Config = {
       serviceWorker: null,
       baseUrl: 'https://myapp.local/',
       copy: [
+        { src: 'assets/robots.txt', dest:'robots.txt'},
         { src: '_redirects', dest: '_redirects' }
       ]
     },
