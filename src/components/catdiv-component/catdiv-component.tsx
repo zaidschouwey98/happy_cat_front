@@ -23,7 +23,7 @@ export class CatdivComponent {
           <div class="row">
             <div class="col-12 mt-3 mb-3">
               <h4>{this.catName}</h4>
-              {this.catText}
+              <p class="text-justify">{this.catText}</p>
             </div>
           </div>
           <div class="row">

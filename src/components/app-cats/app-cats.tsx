@@ -31,9 +31,9 @@ export class AppCats {
             <div class="row">
               <div class="col-12 mt-3 mb-3">
                 <h4>Britannia Tomorrow Tatoo</h4>
-                <p>Tatoo poss&egrave;de un profile parfait mais &eacute;galement une robe somptueuse. Comme tous les chats de Britannia, elle a &eacute;t&eacute; &eacute;lev&eacute;e dans des conditions optimales. Elle est extr&ecirc;mement attachante, une m&egrave;re id&eacute;ale pour les prochaines g&eacute;n&eacute;rations.</p>
+                <p class="text-justify">Tatoo poss&egrave;de un profile parfait mais &eacute;galement une robe somptueuse. Comme tous les chats de Britannia, elle a &eacute;t&eacute; &eacute;lev&eacute;e dans des conditions optimales. Elle est extr&ecirc;mement attachante, une m&egrave;re id&eacute;ale pour les prochaines g&eacute;n&eacute;rations.</p>
 
-                <p>Britannia Bengal en Angleterre fait un travail de s&eacute;l&eacute;ction &eacute;poustouflant, coupl&eacute; a une socialisation du tonnerre. Merci Ansar, Nasima et famille pour votre passion et votre investissement et merci pour votre confiance.</p>              </div>
+                <p class="text-justify">Britannia Bengal en Angleterre fait un travail de s&eacute;lection &eacute;poustouflant, coupl&eacute; a une socialisation du tonnerre. Merci Ansar, Nasima et famille pour votre passion et votre investissement et merci pour votre confiance.</p>              </div>
             </div>
             <div class="row">
               <div class="col-4">
@@ -67,7 +67,7 @@ export class AppCats {
             <div class="row">
               <div class="col-12 mt-3 mb-3">
                 <h4>Animox Free Raqqa La douce</h4>
-                <p>Raqqa vient de France. Alisson et son compagnon sont passionn&eacute;s par l&rsquo;&eacute;levage et lui ont offert une bonne socialisation. Elle est douce et gentille. Merci encore &agrave; Alisson pour sa confiance.</p>              </div>
+                <p class="text-justify">Raqqa vient de France. Alisson et son compagnon sont passionn&eacute;s par l&rsquo;&eacute;levage et lui ont offert une bonne socialisation. Elle est douce et gentille. Merci encore &agrave; Alisson pour sa confiance.</p>              </div>
             </div>
             <div class="row">
               <div class="col-4">
