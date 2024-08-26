@@ -42,7 +42,7 @@ export class AppKittens {
       }
       const albumsJson = (await albums.json()).albums.data;
       sessionStorage.setItem('albums', JSON.stringify(albumsJson));
-      this.kittens = this.albumToKittens(albumsJson.find((album: any) => album.name === 'Chatons'))
+      this.kittens = this.albumToKittens(albumsJson.find((album: any) => album.name === 'Chatons à placer et chats pour la retraite'))
     }
   }
   componentDidLoad() {
