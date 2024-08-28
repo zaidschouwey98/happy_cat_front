@@ -59,6 +59,14 @@ button:hover {
 
 }
 
+.title{
+  width: 100%;
+}
+.subtitle{
+  font-family: "Zeyada", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+}
 .social-img {
   width: 25%;
 }

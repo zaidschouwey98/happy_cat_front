@@ -66,8 +66,13 @@ export class AppCats {
           <div class="col-sm-6">
             <div class="row">
               <div class="col-12 mt-3 mb-3">
-                <h2>Animox Free Raqqa La douce</h2>
-                <p class="text-justify">Raqqa vient de France. Alisson et son compagnon sont passionn&eacute;s par l&rsquo;&eacute;levage et lui ont offert une bonne socialisation. Elle est douce et gentille. Merci encore &agrave; Alisson pour sa confiance.</p>              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Animox Free Raqqa La douce</h2>
+                  <h3 class="card-subtitle mb-2 text-muted">Card subtitle</h3>
+                  <p class="card-text text-justify">Raqqa vient de France. Alisson et son compagnon sont passionn&eacute;s par l&rsquo;&eacute;levage et lui ont offert une bonne socialisation. Elle est douce et gentille. Merci encore &agrave; Alisson pour sa confiance.</p>              </div>
+                </div>
+              </div>
             </div>
             <div class="row">
               <div class="col-4">

@@ -40,3 +40,6 @@ img{
 background: linear-gradient(0deg, rgba(208,207,201,1) 0%, rgba(174,166,154,1) 100%);
   margin:0 !important;
 }
+.card{
+  background-color: #aea69a;
+}
