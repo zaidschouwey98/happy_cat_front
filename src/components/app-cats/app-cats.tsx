@@ -8,6 +8,14 @@ import { Component, Env, State, h } from '@stencil/core';
 export class AppCats {
   @State() albums: [{ name: string; id: number; photos: { data: [] } }];
   async componentWillLoad() {
+    document.title = "Photos de nos chats bengal";
+    
+    // Mettre à jour la balise meta description
+    let metaDescription = document.querySelector("meta[name='description']");
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Rencontrez nos chats Bengal, sélectionnés pour leur caractère et leur lignée exceptionnelle. Chaque chat est élevé avec amour dans un cadre familial.");
+    }
+
     if (sessionStorage.getItem('albums')) {
       this.albums = JSON.parse(sessionStorage.getItem('albums'));
     } else {

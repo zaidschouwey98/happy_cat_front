@@ -11,6 +11,13 @@ export class AppGallery {
   @State() albums: [{ name: string, id: number, photos: { data: [] } }];
   @State() refresh: boolean = false;
   async componentWillLoad() {
+    document.title = "Galerie de chats et chatons bengal";
+    
+    // Mettre à jour la balise meta description
+    let metaDescription = document.querySelector("meta[name='description']");
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Explorez la galerie de nos magnifiques chats et chatons bengal élevés en Suisse. Découvrez leurs motifs uniques et leur beauté exceptionnelle à travers des photos captivantes");
+    }
     if (sessionStorage.getItem('albums')) {
       this.albums = JSON.parse(sessionStorage.getItem('albums'));
     }

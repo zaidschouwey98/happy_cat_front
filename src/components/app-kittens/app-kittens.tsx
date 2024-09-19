@@ -26,6 +26,14 @@ export class AppKittens {
   }
 
   async componentWillLoad() {
+    document.title = "Chatons Bengals à adopter";
+    
+    // Mettre à jour la balise meta description
+    let metaDescription = document.querySelector("meta[name='description']");
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Découvrez nos chatons Bengal disponibles à l'adoption. Chaque chaton est en bonne santé, sociable et prêt à rejoindre un foyer aimant.");
+    }
+
     if (sessionStorage.getItem('albums')) {
       const kittensAlb = JSON.parse(sessionStorage.getItem('albums')).find((album: any) => album.name === 'Chatons à placer et chats pour la retraite');
       if (kittensAlb === undefined) {
