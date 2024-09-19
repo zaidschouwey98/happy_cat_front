@@ -48,7 +48,7 @@ export class AppHome {
                     <p class="text-justify">Notre objectif principal n’est pas de vendre des chatons, mais de contribuer à l’évolution de la race Bengal en sélectionnant soigneusement nos reproducteurs. Nous aspirons à élever des chats non seulement beaux, mais aussi dotés d’un tempérament exceptionnel. Notre engagement est de vous aider à trouver le compagnon idéal, parfaitement adapté à votre mode de vie et à vos attentes.</p>
 
                     <p class="text-justify">Notre approche a été reconnue et mise en lumière par l'émission de télévision TSR, qui a su capter l’essence de notre travail et notre dévouement. Vous pouvez visionner l’émission ci-dessous pour découvrir qui nous sommes vraiment.</p>
-                    <iframe class="iframe" height="370" src="https://www.rts.ch/play/embed?urn=urn:rts:video:14064982&subdivisions=false&startTime=51" allow="geolocation *; autoplay; encrypted-media"></iframe>
+                    <iframe loading='lazy' class="iframe" height="370" src="https://www.rts.ch/play/embed?urn=urn:rts:video:14064982&subdivisions=false&startTime=51" allow="geolocation *; autoplay; encrypted-media"></iframe>
 
                     <p class="text-justify">La sélection de nos reproducteurs est le fruit de longues recherches et de collaborations avec des éleveurs qui partagent nos valeurs d’amour et de respect envers ces merveilleux félins. Après plusieurs années d'attente, nous avons finalement accueilli nos Bengals, issus de lignées prestigieuses avec des champions du monde dans leur pedigree.</p>
 
@@ -68,26 +68,26 @@ export class AppHome {
                 <div class="col-sm-4 tiktok">
                   <a href='https://www.tiktok.com/@swisshappycatbengal'>
                     <div>
-                      <img src="assets/img/tiktok_logo.webp" class="social-img" ></img>
+                      <img loading="lazy" src="assets/img/tiktok_logo.webp" class="social-img" ></img>
                     </div>
-                    <img src="assets/img/tiktok.png" class="social-img"></img>
+                    <img loading="lazy" src="assets/img/tiktok.png" class="social-img"></img>
                   </a>
                 </div>
 
                 <div class="col-sm-4 facebook">
                   <a href='https://www.facebook.com/swissbengal1'>
                     <div>
-                      <img src="assets/img/Facebook-Logo.png" class="social-img"></img>
+                      <img loading="lazy" src="assets/img/Facebook-Logo.png" class="social-img"></img>
                     </div>
-                    <img src="assets/img/facebookqr.JPG" class="social-img"></img>
+                    <img loading="lazy" src="assets/img/facebookqr.JPG" class="social-img"></img>
                   </a>
                 </div>
                 <div class="col-sm-4 insta">
                   <a href='https://instagram.com/swiss_happycat_bengal?igshid=MjEwN2IyYWYwYw=='>
                     <div>
-                      <img src="assets/img/instagram_logo.webp" class="social-img"></img>
+                      <img loading="lazy" src="assets/img/instagram_logo.webp" class="social-img"></img>
                     </div>
-                    <img src="assets/img/insta.png" class="social-img"></img>
+                    <img loading="lazy" src="assets/img/insta.png" class="social-img"></img>
                   </a>
                 </div>
               </div>

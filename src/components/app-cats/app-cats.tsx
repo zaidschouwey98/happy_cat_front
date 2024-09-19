@@ -47,30 +47,30 @@ export class AppCats {
             <div class="row">
               <div class="col-4">
                 <div class="image-container">
-                  <img src="assets/img/tatoo/IMG_0583.JPG" class="left-img" alt="Cat 1" />
+                  <img loading="lazy" src="assets/img/tatoo/IMG_0583.JPG" class="left-img" alt="Cat 1" />
                 </div>
               </div>
               <div class="col-4">
                 <div class="image-container">
-                  <img src="assets/img/tatoo/IMG_0584.JPG" class="left-img" alt="Cat 1" />
+                  <img loading="lazy" src="assets/img/tatoo/IMG_0584.JPG" class="left-img" alt="Cat 1" />
                 </div>
               </div>
               <div class="col-4">
                 <div class="image-container">
-                  <img src="assets/img/tatoo/IMG_0585.JPG" class="left-img" alt="Cat 1" />
+                  <img loading="lazy" src="assets/img/tatoo/IMG_0585.JPG" class="left-img" alt="Cat 1" />
                 </div>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <img src="assets/img/tatoo/tatoo.jpg" class="right-img" alt="Cat 1" />
+            <img loading="lazy" src="assets/img/tatoo/tatoo.jpg" class="right-img" alt="Cat 1" />
           </div>
         </div>
         <div class="row interline">
         </div>
         <div class="row row-bg-light">
           <div class="col-sm-6">
-            <img src="assets/img/raqqa/DSC_7089.jpg" class="right-img" alt="Cat 1" />
+            <img loading="lazy" src="assets/img/raqqa/DSC_7089.jpg" class="right-img" alt="Cat 1" />
           </div>
           <div class="col-sm-6">
             <div class="row">
@@ -82,17 +82,17 @@ export class AppCats {
             <div class="row">
               <div class="col-4">
                 <div class="image-container">
-                  <img src="assets/img/raqqa/DSC_6935.JPG" class="left-img" alt="Cat 1" />
+                  <img loading="lazy" src="assets/img/raqqa/DSC_6935.JPG" class="left-img" alt="Cat 1" />
                 </div>
               </div>
               <div class="col-4">
                 <div class="image-container">
-                  <img src="assets/img/raqqa/IMG_5952.JPG" class="left-img" alt="Cat 1" />
+                  <img loading="lazy" src="assets/img/raqqa/IMG_5952.JPG" class="left-img" alt="Cat 1" />
                 </div>
               </div>
               <div class="col-4">
                 <div class="image-container">
-                  <img src="assets/img/raqqa/lightX.jpeg" class="left-img" alt="Cat 1" />
+                  <img loading="lazy" src="assets/img/raqqa/lightX.jpeg" class="left-img" alt="Cat 1" />
                 </div>
               </div>
             </div>
