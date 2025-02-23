@@ -35,9 +35,9 @@ export class AppRoot {
             <li class="nav-item">
               <a class="nav-link mainnav-item" href="/cats">Nos chats</a>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link mainnav-item" href="/gallery">Galerie</a>
-            </li>
+            </li> */}
             <li class="nav-item">
               <a class="nav-link mainnav-item" href="/kittens">Chatons disponibles</a>
             </li>
