@@ -64,7 +64,7 @@ export class AppKittens {
       return (<div>Loading...</div>)
     return (
       <div class="container-fluid">
-        <div class="row bg-1-titles">
+        <div class="row bg-1">
           <h1>Chatons Bengals Disponibles : Découvrez Nos Petits Compagnons à Adopter</h1>
 
           <p>Pour plus d'informations sur nos chatons disponible, contactez nous !</p>
@@ -91,6 +91,9 @@ export class AppKittens {
             </div>
           )
         })} */}
+        <div class="bg-2">
+
+        </div>
 
       </div>
     );

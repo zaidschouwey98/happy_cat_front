@@ -24,9 +24,10 @@ img {
   margin: 0 !important;
   color: black;
   background-image: url("./assets/img/gallerie-background/bg-1.svg");
-  background-position: center;
+
   background-size: cover;
   width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
 
 }
